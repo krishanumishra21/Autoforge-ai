@@ -1,0 +1,36 @@
+/* AutoForge AI Landing Page Utility Styles */
+
+/* Base transitions */
+a, button {
+  transition: all 0.25s ease;
+}
+
+/* Glassmorphism scrollbar for panels if needed */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue);
+}
+
+/* Image styling fallback */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Typography refinements */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
